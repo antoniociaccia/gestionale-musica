@@ -74,7 +74,7 @@
                     }
                 } else { ?>
                     <tr>
-                        <td colspan="6">Non sono presenti</td>
+                        <td colspan="6">Non sono presenti artisti</td>
                     </tr>
                     <?php
                 } ?>

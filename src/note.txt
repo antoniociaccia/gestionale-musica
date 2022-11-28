@@ -1,0 +1,26 @@
+Gestionale musica
+- Categoria
+	- id
+	- nome_categoria
+- Artista
+	- id
+	- nome
+	- biografica
+	- data_nascita
+	- nazionalita
+	- categoria_id
+- Brano
+	- id
+	- titolo
+	- durata
+	- anno
+	- piattaforma_ascolto
+	- artista_id
+	- categoria_id
+- newsletter
+	- id
+	- nome
+	- cognome
+	- data_nascita
+	- mail
+	- categoria_id
