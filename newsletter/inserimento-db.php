@@ -12,8 +12,9 @@ include('../db/connessione.php');
 $nome = $_POST['nome'];
 $cognome = $_POST['cognome'];
 $data_nascita = $_POST['data_nascita'];
-$mail = $_POST['mail'];
-$categoria_id = $_POST['categoria_id'];
+$mail = $_POST['email'];
+//$categoria_id = $_POST['categoria_id'];
+$categoria_id = 0;
 // Insert
 //INSERT INTO nome_tabella(campo1,campo2) VALUES (valore1,valore2)
 

@@ -26,19 +26,23 @@
             <form action="./inserimento-db.php" method="POST">
                 <div class="mb-3">
                     <label for="nome_artista" class="form-label">Nome artista</label>
-                    <input type="email" class="form-control" id="nome_artista" placeholder="Nome artista" required>
+                    <input type="text" name="nome_artista" class="form-control" id="nome_artista" placeholder="Nome artista" required>
                 </div>
                 <div class="mb-3">
                     <label for="biografia_artista" class="form-label">Biografia artista</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea name="biografia_artista" class="form-control" id="biografia_artista" rows="3"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="data_nascita" class="form-label">Data di nascita</label>
-                    <input type="date" class="form-control" id="data_nascita" placeholder="Data di nascita">
+                    <input type="date" name="data_nascita" class="form-control" id="data_nascita" placeholder="Data di nascita">
                 </div>
                 <div class="mb-3">
                     <label for="nazionalita" class="form-label">Nazionalità</label>
-                    <input type="text" class="form-control" id="nazionalita" placeholder="Nazionalità">
+                    <input type="text" name="nazionalita" class="form-control" id="nazionalita" placeholder="Nazionalità">
+                </div>
+                <div class="mb-3">
+                    <label for="categoria_id" class="form-label">Selezione categoria</label>
+                    <input type="text" name="categoria_id" class="form-control" id="categoria_id" placeholder="Seleziona categoria">
                 </div>
                 <button type="submit" class="btn btn-primary">Salva</button>
             </form>

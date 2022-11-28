@@ -64,7 +64,7 @@
                                 echo date('d-m-Y', strtotime($riga['data_nascita'])); ?>
                             </td>
                             <td><?php
-                                echo $riga['email']; ?>
+                                echo $riga['mail']; ?>
                             </td>
                             <td><?php
                                 echo $riga['categoria_id']; ?>
